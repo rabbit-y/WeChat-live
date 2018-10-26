@@ -1,0 +1,8 @@
+.page-body-button {
+  margin-bottom: 30rpx;
+}
+
+live-player {
+  width: 100%;
+  height: 225px;
+}

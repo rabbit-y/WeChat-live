@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pusher/pusher",
+    "pages/player/player"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/live.png",
+        "iconPath": "images/live.png",
+        "pagePath": "pages/player/player",
+        "text": "直播"
+      },
+      {
+        "selectedIconPath": "images/push.png",
+        "iconPath": "images/push.png",
+        "pagePath": "pages/pusher/pusher",
+        "text": "推流"
+      },
+      {
+        "selectedIconPath": "images/my.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

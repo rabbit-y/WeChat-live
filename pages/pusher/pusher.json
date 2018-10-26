@@ -1,0 +1,12 @@
+{
+ "navigationBarTitleText": "直播",
+  "pages": [
+    "push/push"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "live-pusher",
+    "navigationBarTextStyle": "black"
+  }
+}
