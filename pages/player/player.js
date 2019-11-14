@@ -8,53 +8,58 @@ Page({
   error(e) {
     console.error('live-player error:', e.detail.errMsg)
   },
+  //播放
   bindPlay() {
     this.ctx.play({
       success: res => {
-        console.log('play success')
+        console.log('播放成功')
       },
       fail: res => {
-        console.log('play fail')
+        console.log('播放失败，失败原因'+res.errMsg)
       }
     })
   },
+  //暂停
   bindPause() {
     this.ctx.pause({
       success: res => {
-        console.log('pause success')
+        console.log('暂停成功')
       },
       fail: res => {
-        console.log('pause fail')
+        console.log('暂停失败，失败原因' + res.errMsg)
       }
     })
   },
+  //停止
   bindStop() {
     this.ctx.stop({
       success: res => {
-        console.log('stop success')
+        console.log('停止成功')
       },
       fail: res => {
-        console.log('stop fail')
+        console.log('停止失败，失败原因' + res.errMsg)
       }
     })
   },
+  //恢复
   bindResume() {
     this.ctx.resume({
       success: res => {
-        console.log('resume success')
+        console.log('恢复成功')
       },
       fail: res => {
-        console.log('resume fail')
+        console.log('恢复失败，失败原因' + res.errMsg)
       }
     })
   },
+  //静音
   bindMute() {
     this.ctx.mute({
       success: res => {
-        console.log('mute success')
+        console.log('静音成功')
       },
       fail: res => {
-        console.log('mute fail')
+        console.log('静音失败，失败原因' + res.errMsg)
       }
     })
   }

@@ -1,5 +1,6 @@
 Page({
   onReady(res) {
+    //调用推流摄像头
     this.ctx = wx.createLivePusherContext('pusher')
   },
   statechange(e) {

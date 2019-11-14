@@ -13,7 +13,9 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wx32d3f4a559bca54f",
-	"projectname": "微信直播",
+	"projectname": "%E5%BE%AE%E4%BF%A1%E7%9B%B4%E6%92%AD",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

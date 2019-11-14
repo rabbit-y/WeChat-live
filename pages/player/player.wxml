@@ -1,13 +1,11 @@
-<view class="page-body">
-  <view class="page-section tc">
+<view>
     <live-player id="player" src="rtmp://" bindstatechange="statechange" binderror="error" />
 
-    <view class="btn-area">
-      <button bindtap="bindPlay" class="page-body-button" type="primary">播放</button>
-      <button bindtap="bindPause" class="page-body-button" type="primary">暂停</button>
-      <button bindtap="bindStop" class="page-body-button" type="primary">停止</button>
-      <button bindtap="bindResume" class="page-body-button" type="primary">恢复</button>
-      <button bindtap="bindMute" class="page-body-button" type="primary">静音</button>
+    <view class="btn-box">
+      <button bindtap="bindPlay" type="primary">播放</button>
+      <button bindtap="bindPause" type="warn">暂停</button>
+      <button bindtap="bindStop" type="warn">停止</button>
+      <button bindtap="bindResume" type="primary">恢复</button>
+      <button bindtap="bindMute" type="warn">静音</button>
     </view>
   </view>
-</view>
